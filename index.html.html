@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Yoga Tree - Meditation & Yoga Classes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Raleway', sans-serif;
+      background: linear-gradient(to bottom, #f4f3ef, #e5f4e3);
+      color: #2e3d2f;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: #e3efe8;
+      border-bottom: 2px solid #cce0d1;
+    }
+    header img {
+      width: 90px;
+      height: auto;
+      margin-bottom: 0.5rem;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      color: #265c35;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: url(img1.jpg) center/cover no-repeat;
+      color: white;
+      background-blend-mode: overlay;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .highlight {
+      background: #fff9ec;
+      border-left: 6px solid #265c35;
+      border-right: 6px solid #265c35;
+      border-top: 1px solid #265c35;
+      border-bottom: 1px solid #265c35;
+      padding: 1.2rem;
+      margin: 2rem auto;
+      max-width: 750px;
+      font-weight: 600;
+      border-radius: 8px;
+    }
+    .section {
+      padding: 2.5rem 1rem;
+      max-width: 950px;
+      margin: auto;
+    }
+    .benefits, .yoga-types {
+      display: grid;
+      gap: 1.5rem;
+    }
+    .benefits {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .yoga-types {
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .card h3 {
+      color: #265c35;
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+    .card ul {
+      padding-left: 1rem;
+    }
+    .button {
+      display: inline-block;
+      text-align: center;
+      background: #265c35;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 2rem auto;
+      display: block;
+      width: fit-content;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .button:hover {
+      background-color: #04AA6D;
+      color: white;
+    }
+   
+    .social-buttons {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 1000;
+    }
+    .social-buttons a {
+      background-color: #25D366;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      color: white;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .whatsapp {
+      background-color: #25D366;
+    }
+    .instagram {
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #e3efe8;
+      font-size: 0.9rem;
+      color: #3a5340;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src=logo.jpg alt="Yoga Tree Logo">
+    <h1>THE YOGA TREE</h1>
+  </header>
+
+  <section class="hero">
+    <h2>Free Meditation Workshop</h2>
+    <p>Every Saturday & Sunday | 6 AM - 7 AM</p>
+  </section>
+
+  <section class="section">
+    <h2 style="text-align:center; margin-bottom: 1.5rem; font-family:'Playfair Display', serif;">Yoga Types We Offer</h2>
+    <div class="yoga-types">
+      <div class="card">
+        <img src="A yoga.png" alt="Ashtanga Yoga">
+        <h3>Ashtanga Yoga</h3>
+        <p>Traditional dynamic yoga style promoting strength, stamina, and flexibility.</p>
+      </div>
+      <div class="card">
+        <img src="hathyoga.jpg" alt="Hatha Yoga">
+        <h3>Hatha Yoga</h3>
+        <p>Balanced and gentle postures to improve mental focus and body alignment.</p>
+      </div>
+      <div class="card">
+        <img src="pyoga.jpg" alt="Prenatal Yoga">
+        <h3>Prenatal Yoga</h3>
+        <p>Gentle movements and breathing for expecting mothers to reduce pain and increase relaxation.</p>
+      </div>
+      <div class="card">
+        <img src="demo2.jpg" alt="Postnatal Yoga">
+        <h3>Postnatal Yoga</h3>
+        <p>Support recovery and regain strength post-pregnancy through guided poses and breathwork.</p>
+      </div>
+      <div class="card">
+        <img src="kidsyoga.jpg" alt="Kids Yoga">
+        <h3>Kids Yoga</h3>
+        <p>Fun and engaging yoga designed for children to enhance focus, discipline and flexibility.</p>
+      </div>
+      <div class="card">
+        <img src="ghrbh.jpg"Garbh Sanskar">
+        <h3>Garbh Sanskar</h3>
+        <p>Holistic practice for prenatal well-being, bonding, and positive vibrations for mother and baby.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 style="text-align:center; margin-bottom: 1.5rem; font-family:'Playfair Display', serif;">Why Join Us?</h2>
+    <div class="benefits">
+      <div class="card">
+        <h3>🧘 Be Calm</h3>
+        <ul>
+          <li>Reduce stress</li>
+          <li>Improve sleep quality</li>
+          <li>Learn powerful breathing techniques</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>🤸 Become Flexible</h3>
+        <ul>
+          <li>Increase flexibility of muscles</li>
+          <li>Heal stiffness & tightness in the body</li>
+          <li>Improve joint pains</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>🔥 Burn Fat</h3>
+        <ul>
+          <li>Burn extra calories</li>
+          <li>Learn techniques to maintain weight</li>
+          <li>Get stronger</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="highlight">🎁 First Month Free Trial for New Students</div>
+  <div class="highlight">🧘 Free Meditation for All Enrolled Yoga Students</div>
+
+  <a class="button" href="https://forms.gle/dummy-google-form-link" target="_blank">Register Here</a>
+
+  <div class="social-buttons">
+    <a href="https://wa.me/919730976945" target="_blank" aria-label="Chat on WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://instagram.com" target="_blank" class="instagram" aria-label="Visit Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+
+  <footer>
+    📞 Contact Us: 9730976945 | 🌐 Online Meditation & Yoga Classes
+  </footer>
+</body>
+</html>
